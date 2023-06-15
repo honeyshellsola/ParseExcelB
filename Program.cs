@@ -7,7 +7,7 @@ public class Program
     public static void Main()
     {
         // Path to the XLSB file
-        string filePath = @"C:\Users\Honey.Kumar\OneDrive - Shell\Documents\Honey Kumar\workspace\xlsbfile.xlsb";
+        string filePath = @"C:\Users\workspace\xlsbfile.xlsb";
 
         // Load the XLSB file using Spire.XLS
         Workbook workbook = new Workbook();
@@ -34,19 +34,7 @@ public class Program
             }
         }
 
-        // Iterate through each row and column in the worksheet
-        // foreach (var row in worksheet.Rows)
-        // {
-
-        //     foreach (var cell in row.Cells)
-        //     {
-        //         // Get the cell value
-        //         string cellValue = cell.Value?.ToString();
-        //         if(cell.Row == 7)
-        //         // Print the cell value on the console
-        //             Console.WriteLine($"Cell [{cell.Row}, {cell.Column}]: {cellValue}");
-        //     }
-        // }
+     
 
         // Dispose the workbook
         workbook.Dispose();
