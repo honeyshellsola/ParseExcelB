@@ -1,0 +1,15 @@
+# .NET
+bin/
+obj/
+Debug/
+Release/
+*.exe
+*.dll
+*.pdb
+*.userprefs
+*.vs/
+*.suo
+*.cache
+
+# Visual Studio Code
+.vscode/
